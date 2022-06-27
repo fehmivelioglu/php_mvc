@@ -1,0 +1,7 @@
+<?
+define('ROOT', __DIR__.DIRECTORY_SEPARATOR);
+define('MODEL',ROOT.'model'.DIRECTORY_SEPARATOR);
+define('VIEW',ROOT.'view'.DIRECTORY_SEPARATOR);
+define('CONTROLLER',ROOT.'controller'.DIRECTORY_SEPARATOR);
+define('CORE',ROOT.'core'.DIRECTORY_SEPARATOR);
+?>

@@ -1,0 +1,6 @@
+RewriteEngine On
+
+RewriteRule ^$ /php/php_mvc/public/index.php [L,NC]
+
+RewriteRule ^(.*)$ index.php?path=$1 [NC,L,QSA]
+

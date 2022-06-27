@@ -1,0 +1,7 @@
+RewriteEngine On
+
+#indexi public dosyasına aktarmak için
+RewriteRule ^$ /php/php_mvc/public/ [L,NC]
+#tüm istekleri indexe aktarmak için
+RewriteRule ^(.*)$ /php/php_mvc/public/index.php [NC,L]
+
